@@ -1,0 +1,156 @@
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 17,
+    "userId": 1,
+    "title": "do you hate",
+    "body": "I look for things, but rejected \\ nal or to avoid it"
+}
+HTTP/1.1 201 Created
+Date: Fri, 08 Jan 2021 18:04:03 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+Connection: keep-alive
+Set-Cookie: __cfduid=d59db2225843143ab1661117dc5a5048c1610129043; expires=Sun, 07-Feb-21 18:04:03 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1610129092
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/posts/101
+X-Content-Type-Options: nosniff
+Etag: W/"7b-erG694eadzANc7cDgiT+ieVIno8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0784c488480000d90d459ed000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=wgaL73YKZOA%2FQ2uK1KpWFBzh947XaG0fK%2F6TZ9q4nl2LphwY%2BPs0tb04vUZT3%2Bk0nCQCB3sK92aN22Qw9edTCyWKMXT1slSwkHD%2BRa%2FMz2Z4Z2Rf4fYHbmafDWTf"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 60e7d6ba0d49d90d-AMS
+
+{
+    "id": 101,
+    "userId": 1,
+    "title": "do you hate",
+    "body": "I look for things, but rejected \\ nal or to avoid it"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 17,
+    "userId": 1,
+    "title": "do you love",
+    "body": "I look for things, but rejected \\ nal or to avoid it"
+}
+HTTP/1.1 201 Created
+Date: Fri, 08 Jan 2021 18:04:04 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+Connection: keep-alive
+Set-Cookie: __cfduid=d3d45393043aab93b54ec858e7ed986a01610129043; expires=Sun, 07-Feb-21 18:04:03 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 998
+X-Ratelimit-Reset: 1610129092
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/posts/101
+X-Content-Type-Options: nosniff
+Etag: W/"7b-T6qy9RMFlI20ZE/w6Zu9GpXBCDc"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0784c489bd00002074d9b6a000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=2yTs5HcWquedptrh4Zv1h%2BFF1ukzff429yerdkAxYYM778b%2Fv5NOFD1JsGba4lnS8rKuDPT5a80rO08EzFJoYqRl%2BWLU22BfzRyOxrQvB3FD4be3qpZ0%2BHlTdUJp"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 60e7d6bc6b6a2074-AMS
+
+{
+    "id": 101,
+    "userId": 1,
+    "title": "do you love",
+    "body": "I look for things, but rejected \\ nal or to avoid it"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 17,
+    "userId": 1,
+    "title": "do you like",
+    "body": "I look for things, but rejected \\ nal or to avoid it"
+}
+HTTP/1.1 201 Created
+Date: Fri, 08 Jan 2021 18:04:04 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+Connection: keep-alive
+Set-Cookie: __cfduid=d8a5b0bd60527f13724d1e0c6708df2861610129044; expires=Sun, 07-Feb-21 18:04:04 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 997
+X-Ratelimit-Reset: 1610129092
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/posts/101
+X-Content-Type-Options: nosniff
+Etag: W/"7b-kRHxh5nQyyHQ0YuEeWnqE6jYZ8I"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0784c48ac50000fa58b09cf000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=ykMKdHPzs1rR0snmswHu%2FEEet7mzRr6MumnAljvIC%2Fd73xQZZOBInafHaR13sIzHXB%2BNLmV2X0Fmg7m3nBrpwZvyFA%2BEuy8O60G1tWv2CW%2BClzWTIoAxaxtrKpqy"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 60e7d6be0c4efa58-AMS
+
+{
+    "id": 101,
+    "userId": 1,
+    "title": "do you like",
+    "body": "I look for things, but rejected \\ nal or to avoid it"
+}

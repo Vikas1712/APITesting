@@ -1,18 +1,32 @@
 package resources;
 
-import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.filter.log.RequestLoggingFilter;
+import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
-import static io.restassured.RestAssured.baseURI;
+import java.io.*;
+import java.util.Properties;
 
 public class Utils {
-    RequestSpecification req;
+    public static RequestSpecification req;
 
-    public RequestSpecification requestSpecification(){
-        RestAssured.baseURI="https://jsonplaceholder.typicode.com";
-        req =new RequestSpecBuilder().setBaseUri(baseURI)
-                .setContentType(ContentType.JSON).build();
+    public RequestSpecification requestSpecification() throws IOException {
+        if (req==null) {
+            PrintStream log = new PrintStream(new FileOutputStream("logging.txt"));
+            req = new RequestSpecBuilder().setBaseUri(getGlobalValue("baseURL"))
+                    .addFilter(RequestLoggingFilter.logRequestTo(log))
+                    .addFilter(ResponseLoggingFilter.logResponseTo(log))
+                    .setContentType(ContentType.JSON).build();
+            return req;
+        }
         return req;
+    }
+
+    public static String getGlobalValue(String key) throws IOException {
+        Properties prop=new Properties();
+        FileInputStream fileInputStream=new FileInputStream("src/test/java/resources/global.properties");
+        prop.load(fileInputStream);
+        return prop.getProperty(key);
     }
 }
