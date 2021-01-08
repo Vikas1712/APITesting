@@ -1,5 +1,6 @@
 package stepdefs;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -30,17 +31,18 @@ public class NewPostStepDefinitions extends Utils {
     @When("I calls {string} with {string} http request")
     public void iCallsWithPostHttpRequest(String resource,String method) {
         APIResources resourceAPI = APIResources.valueOf(resource);
-        System.out.println(resourceAPI.getResource());
         resspec = new ResponseSpecBuilder().expectStatusCode(201).expectContentType(ContentType.JSON).build();
         if (method.equalsIgnoreCase("POST"))
             response = res.when().post(resourceAPI.getResource());
-        else if (method.equalsIgnoreCase("GET"))
-            response = res.when().get(resourceAPI.getResource());
     }
 
     @Then("the status code is {int}")
-    public void theStatusCodeIs(int arg0) {
-        assertEquals(response.getStatusCode(), 201);
+    public void theStatusCodeIs(int code) {
+        assertEquals(response.getStatusCode(), code);
     }
 
+    @And("validate {string} is equal {string} in the response")
+    public void validateIsEqualInTheResponse(String keyValue, String ExpectedValue) {
+        assertEquals(getJsonPath(response,keyValue),ExpectedValue);
+    }
 }
