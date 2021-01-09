@@ -1,0 +1,502 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-08T23:56:27.476Z",
+        "line": 12,
+        "name": "Make posts to server and check response code and title",
+        "description": "",
+        "id": "validating-jsonplaceholder-api;make-posts-to-server-and-check-response-code-and-title;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1187641800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add post with \"TDD\" \"Test Driven Development\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TDD\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Test Driven Development\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.iAddPostWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1126459800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I calls \"addPostAPI\" with \"Post\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"addPostAPI\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Post\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.iCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the status code is 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.theStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 461530200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate \"title\" is equal \"TDD\" in the response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"title\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"TDD\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.validateIsEqualInTheResponse(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PostsAPI"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-08T23:56:30.307Z",
+        "line": 13,
+        "name": "Make posts to server and check response code and title",
+        "description": "",
+        "id": "validating-jsonplaceholder-api;make-posts-to-server-and-check-response-code-and-title;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3002200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add post with \"BDD\" \"Behavior Driven Development\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BDD\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Behavior Driven Development\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.iAddPostWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 281828300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I calls \"addPostAPI\" with \"Post\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"addPostAPI\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Post\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.iCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the status code is 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.theStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate \"title\" is equal \"BDD\" in the response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"title\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"BDD\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.validateIsEqualInTheResponse(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PostsAPI"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-08T23:56:30.609Z",
+        "line": 14,
+        "name": "Make posts to server and check response code and title",
+        "description": "",
+        "id": "validating-jsonplaceholder-api;make-posts-to-server-and-check-response-code-and-title;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add post with \"ATDD\" \"Acceptance Test Driven Development\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ATDD\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Acceptance Test Driven Development\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.iAddPostWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 250317800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I calls \"addPostAPI\" with \"Post\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"addPostAPI\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Post\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.iCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the status code is 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.theStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15307600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate \"title\" is equal \"ATDD\" in the response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"title\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"ATDD\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.validateIsEqualInTheResponse(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PostsAPI"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-08T23:56:30.874Z",
+        "line": 18,
+        "name": "Call users end point and check response code",
+        "description": "",
+        "id": "validating-jsonplaceholder-api;call-users-end-point-and-check-response-code",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I have a service to request list of users",
+            "match": {
+              "location": "stepdefs.StepDefinitions.iHaveAServiceToRequestListOfUsers()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78125400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I calls \"getUsersAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getUsersAPI\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.iCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31244000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I request list of users",
+            "match": {
+              "location": "stepdefs.StepDefinitions.iRequestListOfUsers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.theStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UsersAPI"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-08T23:56:30.984Z",
+        "line": 25,
+        "name": "Call users end point and check first user",
+        "description": "",
+        "id": "validating-jsonplaceholder-api;call-users-end-point-and-check-first-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15627400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I have a service to request list of users",
+            "match": {
+              "location": "stepdefs.StepDefinitions.iHaveAServiceToRequestListOfUsers()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78126500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I calls \"getFirstUsersAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getFirstUsersAPI\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.iCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.theStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15624900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "response includes username \"Bret\" and name \"Leanne Graham\" fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bret\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Leanne Graham\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.responseIncludesUsernameAndNameFields(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-08T23:56:31.093Z",
+        "line": 32,
+        "name": "Search for users with username Delphine",
+        "description": "",
+        "id": "validating-jsonplaceholder-api;search-for-users-with-username-delphine",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Jsonplaceholder API",
+    "description": "",
+    "id": "validating-jsonplaceholder-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/Jsonplaceholder.feature",
+    "tags": []
+  }
+]

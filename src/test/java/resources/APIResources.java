@@ -3,7 +3,9 @@ package resources;
 public enum APIResources {
     addPostAPI("/posts"),
     getPostAPI("/posts"),
-    deletePostAPI("/posts/1");
+    deletePostAPI("/posts/1"),
+    getUsersAPI("/users"),
+    getFirstUsersAPI("/users/1");
     private String resource;
 
     APIResources(String resource) {

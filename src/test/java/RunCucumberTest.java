@@ -3,7 +3,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/features",glue = {"stepdefs"})
+@CucumberOptions(features = "src/test/features",plugin="json:target/jsonReports/Cucumber-reports.json",glue = {"stepdefs"})
 public class RunCucumberTest {
 
 }

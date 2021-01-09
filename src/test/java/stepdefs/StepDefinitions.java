@@ -6,6 +6,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
@@ -16,11 +17,10 @@ import java.io.IOException;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class NewPostStepDefinitions extends Utils {
-
+public class StepDefinitions extends Utils {
+    RequestSpecification res;
     ResponseSpecification resspec;
     Response response;
-    RequestSpecification res;
     TestDataBuilder data = new TestDataBuilder();
 
     @Given("I add post with {string} {string}")
@@ -31,9 +31,11 @@ public class NewPostStepDefinitions extends Utils {
     @When("I calls {string} with {string} http request")
     public void iCallsWithPostHttpRequest(String resource,String method) {
         APIResources resourceAPI = APIResources.valueOf(resource);
-        resspec = new ResponseSpecBuilder().expectStatusCode(201).expectContentType(ContentType.JSON).build();
         if (method.equalsIgnoreCase("POST"))
             response = res.when().post(resourceAPI.getResource());
+        else if(method.equalsIgnoreCase("GET"))
+            response =res.when().get(resourceAPI.getResource());
+        resspec = new ResponseSpecBuilder().expectContentType(ContentType.JSON).build();
     }
 
     @Then("the status code is {int}")
@@ -44,5 +46,24 @@ public class NewPostStepDefinitions extends Utils {
     @And("validate {string} is equal {string} in the response")
     public void validateIsEqualInTheResponse(String keyValue, String ExpectedValue) {
         assertEquals(getJsonPath(response,keyValue),ExpectedValue);
+    }
+
+    @Given("I have a service to request list of users")
+    public void iHaveAServiceToRequestListOfUsers() throws IOException {
+        res = given().spec(requestSpecification());
+    }
+
+    @When("I request list of users")
+    public void iRequestListOfUsers() {
+        String resp= response.asString();
+        JsonPath jsonPath=new JsonPath(resp);
+        int count = jsonPath.getInt("array.size()");
+        assertEquals(count,10);
+    }
+
+    @And("response includes username {string} and name {string} fields")
+    public void responseIncludesUsernameAndNameFields(String keyusername, String keyname) {
+        System.out.println(getJsonPath(response,"username")+" -------"+keyusername);
+        System.out.println(getJsonPath(response,"name")+" ----------"+keyname);
     }
 }

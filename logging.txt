@@ -17,15 +17,15 @@ Body:
     "body": "Test Driven Development"
 }
 HTTP/1.1 201 Created
-Date: Fri, 08 Jan 2021 20:57:25 GMT
+Date: Fri, 08 Jan 2021 23:56:49 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 85
 Connection: keep-alive
-Set-Cookie: __cfduid=d02cf74f5ed8512a5434bc12ad287ee201610139445; expires=Sun, 07-Feb-21 20:57:25 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=d712cb92533c35f01aa8b70245117a3f51610150209; expires=Sun, 07-Feb-21 23:56:49 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 X-Powered-By: Express
 X-Ratelimit-Limit: 1000
-X-Ratelimit-Remaining: 993
-X-Ratelimit-Reset: 1610139456
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1610150257
 Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
 Access-Control-Allow-Credentials: true
 Cache-Control: no-cache
@@ -37,12 +37,12 @@ X-Content-Type-Options: nosniff
 Etag: W/"55-2TkA28+UvSO+npEa1yOkDwxuJj4"
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-cf-request-id: 078563402400000c25d3160000000001
+cf-request-id: 0786077f610000bdf5bcb67000000001
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=9p0kzqzjALtAvwTEfViAtlWtL%2Fv3suRdqNsYh9ypa9PtWWTOKbeWpo9BB0CQ7n95C0IlauGQ9jGzBb4kUIcJo9NsBDjDzInPPYi%2B1mLdrSSgJlHq7TwxwrdLHHPK"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=6BnAzaf3s9myqQ2h8M4uxfsBihOBzwtvNellkbYIeN98HJU5L1I6xJKt2yatMCSTiLdhKiF7HUJlxAlEYyZ%2BsK4jQs4TESR7eokOrJUv6tlWisvN2Krf%2FKeap4SO"}],"group":"cf-nel","max_age":604800}
 NEL: {"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 60e8d4ad099b0c25-AMS
+CF-RAY: 60e9db789ebdbdf5-AMS
 
 {
     "id": 101,
@@ -69,15 +69,15 @@ Body:
     "body": "Behavior Driven Development"
 }
 HTTP/1.1 201 Created
-Date: Fri, 08 Jan 2021 20:57:26 GMT
+Date: Fri, 08 Jan 2021 23:56:50 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 89
 Connection: keep-alive
-Set-Cookie: __cfduid=de2be64ccc905722c41779555f7de25fc1610139446; expires=Sun, 07-Feb-21 20:57:26 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=d23a3869507e0d8416a28b57679988eaa1610150210; expires=Sun, 07-Feb-21 23:56:50 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 X-Powered-By: Express
 X-Ratelimit-Limit: 1000
-X-Ratelimit-Remaining: 992
-X-Ratelimit-Reset: 1610139456
+X-Ratelimit-Remaining: 998
+X-Ratelimit-Reset: 1610150257
 Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
 Access-Control-Allow-Credentials: true
 Cache-Control: no-cache
@@ -89,12 +89,12 @@ X-Content-Type-Options: nosniff
 Etag: W/"59-1jy0dJbdDbMEIElzHN1GF+ThW+M"
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-cf-request-id: 078563432a0000c769a4206000000001
+cf-request-id: 07860782a800001eb530af2000000001
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=QQSl9Cyez%2BVx8TiBLu9tGQHmUe7%2FvivfCKd6EHOlyrWPDLqeXyOfQN3hDj9yeaapkgV09NFkOUv4i3T%2BGzm%2FEy99LCRzIX0IHIut8UQHvdCvQHi1eFY%2FcnFErsct"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=5b8gUMcDDDdFmaEKfGkEwzQC4DfvERPQmE6nUGOmpa5%2FXYMSIxd1V%2Fg1RQ2f7wuhS%2FrwY9CveobwhnVYaWFTiEt7RIM2FrGzMW5sFGkwT4AG4xp61nerv%2BxpXfoG"}],"group":"cf-nel","max_age":604800}
 NEL: {"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 60e8d4b1dbaec769-AMS
+CF-RAY: 60e9db7ddb3d1eb5-AMS
 
 {
     "id": 101,
@@ -121,15 +121,15 @@ Body:
     "body": "Acceptance Test Driven Development"
 }
 HTTP/1.1 201 Created
-Date: Fri, 08 Jan 2021 20:57:26 GMT
+Date: Fri, 08 Jan 2021 23:56:50 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 97
 Connection: keep-alive
-Set-Cookie: __cfduid=d47643318c1e66a8620059a55048d74831610139446; expires=Sun, 07-Feb-21 20:57:26 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=da4f8161288c85041db80c55d0960b9091610150210; expires=Sun, 07-Feb-21 23:56:50 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 X-Powered-By: Express
 X-Ratelimit-Limit: 1000
-X-Ratelimit-Remaining: 991
-X-Ratelimit-Reset: 1610139456
+X-Ratelimit-Remaining: 997
+X-Ratelimit-Reset: 1610150257
 Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
 Access-Control-Allow-Credentials: true
 Cache-Control: no-cache
@@ -141,16 +141,351 @@ X-Content-Type-Options: nosniff
 Etag: W/"61-fQ9RMpwdVlOTRWKoxPFIegNi1TQ"
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-cf-request-id: 078563444a0000fa8cf8b49000000001
+cf-request-id: 07860783bc0000bdc37f2d0000000001
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=9M76gPPpFq61g30yFEDEOIyN2TI8D22pyLpPc7SWRmhZzLuHT%2BEYm431JiNZVsIBAAarhmPzsxvBqbClO2LK%2FeYeXjmDOqlr2aBy3KvjkISJ%2FIgTm2%2FbXeUV4RCe"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=rtrVJtWNSSEFuO1NvL%2BtkzNwH5y7rdgr3w4KLMpoECTDMKLcML7YK4tAjDAOeEaRaNzV6vuWeLeEo%2F%2Bbt501MD7DNK3Z3kUJTWV0FTDZAHDpYHHDVczsWRT3UwSV"}],"group":"cf-nel","max_age":604800}
 NEL: {"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 60e8d4b38da4fa8c-AMS
+CF-RAY: 60e9db7f9ec8bdc3-AMS
 
 {
     "id": 101,
     "userId": 1,
     "title": "ATDD",
     "body": "Acceptance Test Driven Development"
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 08 Jan 2021 23:56:50 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=de0b465777c18433f57a12cff8b2d2aa61610150210; expires=Sun, 07-Feb-21 23:56:50 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 996
+X-Ratelimit-Reset: 1604379566
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+Content-Encoding: gzip
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 21657
+cf-request-id: 07860784fe0000c795242dd000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=l%2F9%2FETIQ46u1Hi1C3XiZDbcpX1%2BVrnxsz3y%2B2lpSZuWuTbRqT3eDOXHwZUKllBfiN8emO3xDVjDX2vSCa2O9Y6MRqK7yvplHZepGbtmL%2F802G5a1T11JSLJF3EEk"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 60e9db819f75c795-AMS
+
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
+            }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+                "lat": "-68.6102",
+                "lng": "-47.0653"
+            }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "email": "Julianne.OConner@kory.org",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+                "lat": "29.4572",
+                "lng": "-164.2990"
+            }
+        },
+        "phone": "493-170-9623 x156",
+        "website": "kale.biz",
+        "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+                "lat": "-31.8129",
+                "lng": "62.5342"
+            }
+        },
+        "phone": "(254)954-1289",
+        "website": "demarco.info",
+        "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "email": "Karley_Dach@jasper.info",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+                "lat": "-71.4197",
+                "lng": "71.7478"
+            }
+        },
+        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
+        "company": {
+            "name": "Considine-Lockman",
+            "catchPhrase": "Synchronised bottom-line interface",
+            "bs": "e-enable innovative applications"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Kurtis Weissnat",
+        "username": "Elwyn.Skiles",
+        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+                "lat": "24.8918",
+                "lng": "21.8984"
+            }
+        },
+        "phone": "210.067.6132",
+        "website": "elvis.io",
+        "company": {
+            "name": "Johns Group",
+            "catchPhrase": "Configurable multimedia task-force",
+            "bs": "generate enterprise e-tailers"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nicholas Runolfsdottir V",
+        "username": "Maxime_Nienow",
+        "email": "Sherwood@rosamond.me",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+                "lat": "-14.3990",
+                "lng": "-120.7677"
+            }
+        },
+        "phone": "586.493.6943 x140",
+        "website": "jacynthe.com",
+        "company": {
+            "name": "Abernathy Group",
+            "catchPhrase": "Implemented secondary concept",
+            "bs": "e-enable extensible e-tailers"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "username": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+                "lat": "24.6463",
+                "lng": "-168.8889"
+            }
+        },
+        "phone": "(775)976-6794 x41206",
+        "website": "conrad.com",
+        "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "username": "Moriah.Stanton",
+        "email": "Rey.Padberg@karina.biz",
+        "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+                "lat": "-38.2386",
+                "lng": "57.2232"
+            }
+        },
+        "phone": "024-648-3804",
+        "website": "ambrose.net",
+        "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+        }
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 08 Jan 2021 23:56:50 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dfadfb7e3fdc310eb3f7ed13a8438c7341610150210; expires=Sun, 07-Feb-21 23:56:50 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 995
+X-Ratelimit-Reset: 1610107066
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 14336
+cf-request-id: 078607856f0000bf5a78be7000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=gGuMi3euyeK7o6Ifciek0u9JBwH7noXqK7OJBZWiYn7mirFiw8tTmx6kyKSK2NjqBooVZqRQ9pwE33fiTwXhbtYBCiLrXu6kXnK%2FvqarN7m961X6CHo982BTZgb5"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 60e9db824c16bf5a-AMS
+Content-Encoding: gzip
+
+{
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+            "lat": "-37.3159",
+            "lng": "81.1496"
+        }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+    }
 }
