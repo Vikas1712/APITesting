@@ -21,12 +21,22 @@ Feature: Validating Jsonplaceholder API
     And I request list of users
     Then the status code is 200
 
+  @UsersAPI
   @test
   Scenario: Call users end point and check first user
     Given I have a service to request list of users
     When I calls "getFirstUsersAPI" with "Get" http request
     Then the status code is 200
-    And response includes username "Bret" and name "Leanne Graham" fields
+    And "username" in response body is "Bret"
+    And "name" in response body is "Leanne Graham"
+    And "id" in response body is "1"
 
+  @UsersAPI
   @test
   Scenario: Search for users with username Delphine
+    Given I have a service to request users with name "Delphine"
+    When I calls "getUsersAPI" with "Get" http request
+    Then the status code is 200
+    And "username" in response body is "Delphine"
+    And "name" in response body is "Glenna Reichert"
+    And "id" in response body is "9"

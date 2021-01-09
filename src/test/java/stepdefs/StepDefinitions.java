@@ -61,9 +61,13 @@ public class StepDefinitions extends Utils {
         assertEquals(count,10);
     }
 
-    @And("response includes username {string} and name {string} fields")
-    public void responseIncludesUsernameAndNameFields(String keyusername, String keyname) {
-        System.out.println(getJsonPath(response,"username")+" -------"+keyusername);
-        System.out.println(getJsonPath(response,"name")+" ----------"+keyname);
+    @Given("I have a service to request users with name {string}")
+    public void iHaveAServiceToRequestUsersWithName(String name) throws IOException {
+        res = given().log().all().spec(requestSpecification().queryParams("username",name));
+    }
+
+    @And("{string} in response body is {string}")
+    public void inResponseBodyIs(String keyValue, String expectedValue) {
+        assertEquals(getJsonPath(response,keyValue),expectedValue);
     }
 }
