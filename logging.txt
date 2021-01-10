@@ -1,3 +1,494 @@
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 17,
+    "userId": 1,
+    "title": "TDD",
+    "body": "Test Driven Development"
+}
+HTTP/1.1 201 Created
+Date: Sun, 10 Jan 2021 00:42:29 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 85
+Connection: keep-alive
+Set-Cookie: __cfduid=dddfbd2b26a43b6b39c63a3e03c3d0d671610239349; expires=Tue, 09-Feb-21 00:42:29 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1610239389
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/posts/101
+X-Content-Type-Options: nosniff
+Etag: W/"55-2TkA28+UvSO+npEa1yOkDwxuJj4"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 078b57a96400000bb5a101b000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=gCgn9WkeYgWcsqgPgMEKxozYMJF7x1X1W9c3W%2FBmKyW2AsRqnNvv1jpXYtja0A2YoNtckBpQU1B85pCAnokMGnoa7V4nkl7O%2FWvLiIQX9iT7qelQi5cF0WmAbZPv"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 60f25bbbdec40bb5-AMS
+
+{
+    "id": 101,
+    "userId": 1,
+    "title": "TDD",
+    "body": "Test Driven Development"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 17,
+    "userId": 1,
+    "title": "BDD",
+    "body": "Behavior Driven Development"
+}
+HTTP/1.1 201 Created
+Date: Sun, 10 Jan 2021 00:42:30 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 89
+Connection: keep-alive
+Set-Cookie: __cfduid=d18f1255b2c8d0084053e8401b5211e831610239349; expires=Tue, 09-Feb-21 00:42:29 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 998
+X-Ratelimit-Reset: 1610239389
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/posts/101
+X-Content-Type-Options: nosniff
+Etag: W/"59-1jy0dJbdDbMEIElzHN1GF+ThW+M"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 078b57acd4000072578f9c8000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=lfgMYudBCHMQIuNw9qHP0pF5Ouo9pmEyyfUD%2FiyhUzjrUe1oitw%2Bzz3FdA9rnj1%2BOiUTovBLLaQFhssx9cR0scep9HjWAhBmWU5iD%2F9gao9j07TU8VgT4qGLB9gI"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 60f25bc15eed7257-AMS
+
+{
+    "id": 101,
+    "userId": 1,
+    "title": "BDD",
+    "body": "Behavior Driven Development"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 17,
+    "userId": 1,
+    "title": "ATDD",
+    "body": "Acceptance Test Driven Development"
+}
+HTTP/1.1 201 Created
+Date: Sun, 10 Jan 2021 00:42:30 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 97
+Connection: keep-alive
+Set-Cookie: __cfduid=d8cc67ea01ef2c43c31d8bf85e30690911610239350; expires=Tue, 09-Feb-21 00:42:30 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 997
+X-Ratelimit-Reset: 1610239389
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/posts/101
+X-Content-Type-Options: nosniff
+Etag: W/"61-fQ9RMpwdVlOTRWKoxPFIegNi1TQ"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 078b57adda00000bf9feaa0000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=YNkphpN5KdOzIhNyFaqpQZtZQTsi9aYEt%2BxxgkeSdx4zziyoiLgVdu6nweFijxazSMIHkCr9u2m56f72eIrYc9o8CiEPewIbMaOJnNxicLvT7oS0B8mzrZ3TP3nn"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 60f25bc2faa70bf9-AMS
+
+{
+    "id": 101,
+    "userId": 1,
+    "title": "ATDD",
+    "body": "Acceptance Test Driven Development"
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 10 Jan 2021 00:42:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d0a72d06af9ed0f55f0d244aa615a3b7f1610239350; expires=Tue, 09-Feb-21 00:42:30 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 996
+X-Ratelimit-Reset: 1604379566
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+Content-Encoding: gzip
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 24379
+cf-request-id: 078b57aeed00009d1e4c96c000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=sTifVDPm6mqbPFx%2FtUn3qZTukvg1VIuwRme9e7C6Kj53xSZzZIKqeN5Khk58dLwX%2BbN8LxUW46%2F93Pl2hdnu%2FazbDQzOpfZwpAqEI%2Bet24YiBg8jZgfRlXnRaISG"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 60f25bc4ac8f9d1e-AMS
+
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
+            }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+                "lat": "-68.6102",
+                "lng": "-47.0653"
+            }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "email": "Julianne.OConner@kory.org",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+                "lat": "29.4572",
+                "lng": "-164.2990"
+            }
+        },
+        "phone": "493-170-9623 x156",
+        "website": "kale.biz",
+        "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+                "lat": "-31.8129",
+                "lng": "62.5342"
+            }
+        },
+        "phone": "(254)954-1289",
+        "website": "demarco.info",
+        "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "email": "Karley_Dach@jasper.info",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+                "lat": "-71.4197",
+                "lng": "71.7478"
+            }
+        },
+        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
+        "company": {
+            "name": "Considine-Lockman",
+            "catchPhrase": "Synchronised bottom-line interface",
+            "bs": "e-enable innovative applications"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Kurtis Weissnat",
+        "username": "Elwyn.Skiles",
+        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+                "lat": "24.8918",
+                "lng": "21.8984"
+            }
+        },
+        "phone": "210.067.6132",
+        "website": "elvis.io",
+        "company": {
+            "name": "Johns Group",
+            "catchPhrase": "Configurable multimedia task-force",
+            "bs": "generate enterprise e-tailers"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nicholas Runolfsdottir V",
+        "username": "Maxime_Nienow",
+        "email": "Sherwood@rosamond.me",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+                "lat": "-14.3990",
+                "lng": "-120.7677"
+            }
+        },
+        "phone": "586.493.6943 x140",
+        "website": "jacynthe.com",
+        "company": {
+            "name": "Abernathy Group",
+            "catchPhrase": "Implemented secondary concept",
+            "bs": "e-enable extensible e-tailers"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "username": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+                "lat": "24.6463",
+                "lng": "-168.8889"
+            }
+        },
+        "phone": "(775)976-6794 x41206",
+        "website": "conrad.com",
+        "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "username": "Moriah.Stanton",
+        "email": "Rey.Padberg@karina.biz",
+        "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+                "lat": "-38.2386",
+                "lng": "57.2232"
+            }
+        },
+        "phone": "024-648-3804",
+        "website": "ambrose.net",
+        "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+        }
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 10 Jan 2021 00:42:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d7ab6375e1b207ebdd2d15d5c4c3ce9d41610239350; expires=Tue, 09-Feb-21 00:42:30 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 995
+X-Ratelimit-Reset: 1610107066
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 26528
+cf-request-id: 078b57af4f00000b846f086000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=911LMnQzpkFBbnc87cgwuhQTQAvfBJfFYHyUOJhO%2BD95wknaA0wyjAcsYjUmYFNr7EsFuRiG6ab9tjXwIchbTD5Ljo9YvlcJijgdFALv%2FgFR2CbRkNVfItNRqvDp"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 60f25bc54b130b84-AMS
+Content-Encoding: gzip
+
+{
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+            "lat": "-37.3159",
+            "lng": "81.1496"
+        }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+    }
+}
 Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/users?username=Delphine
 Proxy:			<none>
@@ -11,15 +502,15 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sat, 09 Jan 2021 01:02:46 GMT
+Date: Sun, 10 Jan 2021 00:42:30 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d650d6a8c150a892fee08e6b0db9dcb351610154166; expires=Mon, 08-Feb-21 01:02:46 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=dc15bda6fcb5b54a78ac7c9925eaf3d661610239350; expires=Tue, 09-Feb-21 00:42:30 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 X-Powered-By: Express
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Remaining: 999
-X-Ratelimit-Reset: 1610152597
+X-Ratelimit-Reset: 1610227868
 Vary: Origin, Accept-Encoding
 Access-Control-Allow-Credentials: true
 Cache-Control: max-age=43200
@@ -29,13 +520,13 @@ X-Content-Type-Options: nosniff
 Etag: W/"23d-EKDCRFg7oh6G4KjjoWlynBpL2AY"
 Via: 1.1 vegur
 CF-Cache-Status: HIT
-Age: 1606
-cf-request-id: 078643df2c0000417a47245000000001
+Age: 11532
+cf-request-id: 078b57afaf0000fa90fc0de000000001
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=xeAJ1V%2BJrm7u0VZdX9C3Q31q1SoGjHhLQce0VotCJ1xHZQ3iCCP7rnLEZGvQebAFG07w3z14P4u0pGFh2aN5Kcwvw1UdjxL8ccDHoxqcQULbQd%2BlsDSstMctBqt6"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=GogxWBnF4rXNnpiC2ZMNUjmTw1ZbToBE4TTKvZJpNhwtf8KKQirwT7QsY56cXpkX1OrsQ7J9DP0hF84Lv%2BZ2f8655oh0Dcr%2BsQ1fJ%2B6fDxlymau6mqK2H9ZZLNwZ"}],"group":"cf-nel","max_age":604800}
 NEL: {"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 60ea3c11ec8d417a-HAM
+CF-RAY: 60f25bc5e94dfa90-AMS
 Content-Encoding: gzip
 
 [
@@ -61,5 +552,187 @@ Content-Encoding: gzip
             "catchPhrase": "Switchable contextually-based project",
             "bs": "aggregate real-time technologies"
         }
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts?username=Delphine&userId=9
+Proxy:			<none>
+Request params:	<none>
+Query params:	username=Delphine
+				userId=9
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 10 Jan 2021 00:42:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dd66453c9acc7592e9d5ab2fc2b75590b1610239350; expires=Tue, 09-Feb-21 00:42:30 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1610230328
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"aa1-7w0ImWAnFGRWG4ZRQUECVBaSqRo"
+Content-Encoding: gzip
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 9036
+cf-request-id: 078b57b0170000d8f58714c000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=dlwo6glb%2B4ABqW1AJNffjAbGBb5oiozsnozABJCpUykwUrGM7gEP3Uhre6%2FI1SDIKOhjpVKQnmCiwPS4Y8oCSs5QWSFch%2FeILOvBRETNFS0zaZwq2j4IvSQZB%2BnZ"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 60f25bc68f60d8f5-AMS
+
+[
+    {
+        "userId": 9,
+        "id": 81,
+        "title": "tempora rem veritatis voluptas quo dolores vero",
+        "body": "facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut"
+    },
+    {
+        "userId": 9,
+        "id": 82,
+        "title": "laudantium voluptate suscipit sunt enim enim",
+        "body": "ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic"
+    },
+    {
+        "userId": 9,
+        "id": 83,
+        "title": "odit et voluptates doloribus alias odio et",
+        "body": "est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam"
+    },
+    {
+        "userId": 9,
+        "id": 84,
+        "title": "optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut",
+        "body": "sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio"
+    },
+    {
+        "userId": 9,
+        "id": 85,
+        "title": "dolore veritatis porro provident adipisci blanditiis et sunt",
+        "body": "similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione"
+    },
+    {
+        "userId": 9,
+        "id": 86,
+        "title": "placeat quia et porro iste",
+        "body": "quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio"
+    },
+    {
+        "userId": 9,
+        "id": 87,
+        "title": "nostrum quis quasi placeat",
+        "body": "eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est"
+    },
+    {
+        "userId": 9,
+        "id": 88,
+        "title": "sapiente omnis fugit eos",
+        "body": "consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed"
+    },
+    {
+        "userId": 9,
+        "id": 89,
+        "title": "sint soluta et vel magnam aut ut sed qui",
+        "body": "repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est"
+    },
+    {
+        "userId": 9,
+        "id": 90,
+        "title": "ad iusto omnis odit dolor voluptatibus",
+        "body": "minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis"
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?username=Delphine&userId=9&postId=9
+Proxy:			<none>
+Request params:	<none>
+Query params:	username=Delphine
+				userId=9
+				postId=9
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 10 Jan 2021 00:42:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d274408a28b1b87f53e38c38a4a799da61610239350; expires=Tue, 09-Feb-21 00:42:30 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1610236329
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"585-fw6xtRowZ/MyidO8uxMxptg9dZU"
+Content-Encoding: gzip
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 3045
+cf-request-id: 078b57b04f00000b74950d0000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=6d0uOVTTHFzfSk5HpCesEhnDvusrXTrXubLDMZc5PbMNYW5rwRh6yNNpvJgrfHtC2sRquKXkz6FI6oKZb41FtczvkdAz2W96qNhk9YjcfnmR9afqcamaWYCj%2BZyn"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 60f25bc6ec830b74-AMS
+
+[
+    {
+        "postId": 9,
+        "id": 41,
+        "name": "voluptas deleniti ut",
+        "email": "Lucio@gladys.tv",
+        "body": "facere repudiandae vitae ea aut sed quo ut et\nfacere nihil ut voluptates in\nsaepe cupiditate accusantium numquam dolores\ninventore sint mollitia provident"
+    },
+    {
+        "postId": 9,
+        "id": 42,
+        "name": "nam qui et",
+        "email": "Shemar@ewell.name",
+        "body": "aut culpa quaerat veritatis eos debitis\naut repellat eius explicabo et\nofficiis quo sint at magni ratione et iure\nincidunt quo sequi quia dolorum beatae qui"
+    },
+    {
+        "postId": 9,
+        "id": 43,
+        "name": "molestias sint est voluptatem modi",
+        "email": "Jackeline@eva.tv",
+        "body": "voluptatem ut possimus laborum quae ut commodi delectus\nin et consequatur\nin voluptas beatae molestiae\nest rerum laborum et et velit sint ipsum dolorem"
+    },
+    {
+        "postId": 9,
+        "id": 44,
+        "name": "hic molestiae et fuga ea maxime quod",
+        "email": "Marianna_Wilkinson@rupert.io",
+        "body": "qui sunt commodi\nsint vel optio vitae quis qui non distinctio\nid quasi modi dicta\neos nihil sit inventore est numquam officiis"
+    },
+    {
+        "postId": 9,
+        "id": 45,
+        "name": "autem illo facilis",
+        "email": "Marcia@name.biz",
+        "body": "ipsum odio harum voluptatem sunt cumque et dolores\nnihil laboriosam neque commodi qui est\nquos numquam voluptatum\ncorporis quo in vitae similique cumque tempore"
     }
 ]

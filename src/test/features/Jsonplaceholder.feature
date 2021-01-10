@@ -40,3 +40,10 @@ Feature: Validating Jsonplaceholder API
     And "username" in response body is "Delphine"
     And "name" in response body is "Glenna Reichert"
     And "id" in response body is "9"
+    When I Search for the post written by the user
+    And I calls "getPostAPI" with "Get" http request
+    Then the status code is 200
+    When I fetch the comments made by user for each posts
+    And  I calls "getCommentsAPT" with "Get" http request
+    Then the status code is 200
+    And Validate "email" address format in comments sections

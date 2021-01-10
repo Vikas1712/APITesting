@@ -5,7 +5,8 @@ public enum APIResources {
     getPostAPI("/posts"),
     deletePostAPI("/posts/1"),
     getUsersAPI("/users"),
-    getFirstUsersAPI("/users/1");
+    getFirstUsersAPI("/users/1"),
+    getCommentsAPT("/comments");
     private String resource;
 
     APIResources(String resource) {

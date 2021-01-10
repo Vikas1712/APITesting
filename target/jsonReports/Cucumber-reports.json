@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-08T23:56:27.476Z",
+        "start_timestamp": "2021-01-10T00:42:24.985Z",
         "line": 12,
         "name": "Make posts to server and check response code and title",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1187641800,
+              "duration": 1289397600,
               "status": "passed"
             },
             "line": 6,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 1126459800,
+              "duration": 1193989400,
               "status": "passed"
             },
             "line": 7,
@@ -57,6 +57,7 @@
           },
           {
             "result": {
+              "duration": 2017400,
               "status": "passed"
             },
             "line": 8,
@@ -74,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 461530200,
+              "duration": 515184100,
               "status": "passed"
             },
             "line": 9,
@@ -105,7 +106,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-08T23:56:30.307Z",
+        "start_timestamp": "2021-01-10T00:42:28.062Z",
         "line": 13,
         "name": "Make posts to server and check response code and title",
         "description": "",
@@ -115,7 +116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3002200,
+              "duration": 2026200,
               "status": "passed"
             },
             "line": 6,
@@ -137,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 281828300,
+              "duration": 244216900,
               "status": "passed"
             },
             "line": 7,
@@ -176,6 +177,7 @@
           },
           {
             "result": {
+              "duration": 12030900,
               "status": "passed"
             },
             "line": 9,
@@ -206,7 +208,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-08T23:56:30.609Z",
+        "start_timestamp": "2021-01-10T00:42:28.324Z",
         "line": 14,
         "name": "Make posts to server and check response code and title",
         "description": "",
@@ -216,6 +218,7 @@
         "steps": [
           {
             "result": {
+              "duration": 2991000,
               "status": "passed"
             },
             "line": 6,
@@ -237,7 +240,7 @@
           },
           {
             "result": {
-              "duration": 250317800,
+              "duration": 247115800,
               "status": "passed"
             },
             "line": 7,
@@ -276,7 +279,7 @@
           },
           {
             "result": {
-              "duration": 15307600,
+              "duration": 11863600,
               "status": "passed"
             },
             "line": 9,
@@ -307,7 +310,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-08T23:56:30.874Z",
+        "start_timestamp": "2021-01-10T00:42:28.586Z",
         "line": 18,
         "name": "Call users end point and check response code",
         "description": "",
@@ -328,7 +331,7 @@
           },
           {
             "result": {
-              "duration": 78125400,
+              "duration": 85351700,
               "status": "passed"
             },
             "line": 20,
@@ -350,7 +353,7 @@
           },
           {
             "result": {
-              "duration": 31244000,
+              "duration": 30008900,
               "status": "passed"
             },
             "line": 21,
@@ -388,8 +391,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-08T23:56:30.984Z",
-        "line": 25,
+        "start_timestamp": "2021-01-10T00:42:28.704Z",
+        "line": 26,
         "name": "Call users end point and check first user",
         "description": "",
         "id": "validating-jsonplaceholder-api;call-users-end-point-and-check-first-user",
@@ -398,10 +401,10 @@
         "steps": [
           {
             "result": {
-              "duration": 15627400,
+              "duration": 999800,
               "status": "passed"
             },
-            "line": 26,
+            "line": 27,
             "name": "I have a service to request list of users",
             "match": {
               "location": "stepdefs.StepDefinitions.iHaveAServiceToRequestListOfUsers()"
@@ -410,10 +413,10 @@
           },
           {
             "result": {
-              "duration": 78126500,
+              "duration": 50999900,
               "status": "passed"
             },
-            "line": 27,
+            "line": 28,
             "name": "I calls \"getFirstUsersAPI\" with \"Get\" http request",
             "match": {
               "arguments": [
@@ -434,7 +437,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 28,
+            "line": 29,
             "name": "the status code is 200",
             "match": {
               "arguments": [
@@ -449,43 +452,337 @@
           },
           {
             "result": {
-              "duration": 15624900,
+              "duration": 13997800,
               "status": "passed"
             },
-            "line": 29,
-            "name": "response includes username \"Bret\" and name \"Leanne Graham\" fields",
+            "line": 30,
+            "name": "\"username\" in response body is \"Bret\"",
             "match": {
               "arguments": [
                 {
+                  "val": "\"username\"",
+                  "offset": 0
+                },
+                {
                   "val": "\"Bret\"",
-                  "offset": 27
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.inResponseBodyIs(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11003300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "\"name\" in response body is \"Leanne Graham\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 0
                 },
                 {
                   "val": "\"Leanne Graham\"",
-                  "offset": 43
+                  "offset": 27
                 }
               ],
-              "location": "stepdefs.StepDefinitions.responseIncludesUsernameAndNameFields(java.lang.String,java.lang.String)"
+              "location": "stepdefs.StepDefinitions.inResponseBodyIs(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9998000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "\"id\" in response body is \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.inResponseBodyIs(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
+            "name": "@UsersAPI"
+          },
+          {
             "name": "@test"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-08T23:56:31.093Z",
-        "line": 32,
+        "start_timestamp": "2021-01-10T00:42:28.795Z",
+        "line": 36,
         "name": "Search for users with username Delphine",
         "description": "",
         "id": "validating-jsonplaceholder-api;search-for-users-with-username-delphine",
         "type": "scenario",
         "keyword": "Scenario",
-        "steps": [],
+        "steps": [
+          {
+            "result": {
+              "duration": 7003500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I have a service to request users with name \"Delphine\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Delphine\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.iHaveAServiceToRequestUsersWithName(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53001100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I calls \"getUsersAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getUsersAPI\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.iCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.theStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10998800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "\"username\" in response body is \"Delphine\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Delphine\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.inResponseBodyIs(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13004700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "\"name\" in response body is \"Glenna Reichert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Glenna Reichert\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.inResponseBodyIs(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16994000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "\"id\" in response body is \"9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"9\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.inResponseBodyIs(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13999500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I Search for the post written by the user",
+            "match": {
+              "location": "stepdefs.StepDefinitions.iSearchForThePostWrittenByTheUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46000300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I calls \"getPostAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getPostAPI\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.iCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.theStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I fetch the comments made by user for each posts",
+            "match": {
+              "location": "stepdefs.StepDefinitions.iFetchTheCommentsMadeByUserForEachPosts()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57998400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I calls \"getCommentsAPT\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getCommentsAPT\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.iCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.theStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16998400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Validate \"email\" address format in comments sections",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepdefs.StepDefinitions.validateAddressFormatInCommentsSections(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
         "tags": [
+          {
+            "name": "@UsersAPI"
+          },
           {
             "name": "@test"
           }

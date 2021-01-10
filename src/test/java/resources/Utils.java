@@ -38,6 +38,6 @@ public class Utils {
     public String getJsonPath(Response response, String key){
         String resp= response.asString();
         JsonPath jsonPath=new JsonPath(resp);
-        return jsonPath.get(key).toString();
+        return jsonPath.get(key).toString().replaceAll("(^\\[|\\]$)", "");
     }
 }
