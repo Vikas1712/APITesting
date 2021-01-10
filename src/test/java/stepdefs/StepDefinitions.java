@@ -27,6 +27,7 @@ public class StepDefinitions extends Utils {
     Response response;
     TestDataBuilder data = new TestDataBuilder();
     String id=null;
+
     @Given("I add post with {string} {string}")
     public void iAddPostWith(String title, String body) throws IOException {
         res = given().spec(requestSpecification()).body(data.addPost(title, body));
