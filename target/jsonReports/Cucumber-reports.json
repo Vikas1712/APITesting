@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-10T00:42:24.985Z",
+        "start_timestamp": "2021-01-10T00:50:38.140Z",
         "line": 12,
         "name": "Make posts to server and check response code and title",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1289397600,
+              "duration": 1326764600,
               "status": "passed"
             },
             "line": 6,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 1193989400,
+              "duration": 1062348500,
               "status": "passed"
             },
             "line": 7,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 2017400,
+              "duration": 998400,
               "status": "passed"
             },
             "line": 8,
@@ -75,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 515184100,
+              "duration": 575369700,
               "status": "passed"
             },
             "line": 9,
@@ -106,7 +106,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-10T00:42:28.062Z",
+        "start_timestamp": "2021-01-10T00:50:41.194Z",
         "line": 13,
         "name": "Make posts to server and check response code and title",
         "description": "",
@@ -116,7 +116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2026200,
+              "duration": 3000600,
               "status": "passed"
             },
             "line": 6,
@@ -138,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 244216900,
+              "duration": 243456400,
               "status": "passed"
             },
             "line": 7,
@@ -177,7 +177,7 @@
           },
           {
             "result": {
-              "duration": 12030900,
+              "duration": 15063100,
               "status": "passed"
             },
             "line": 9,
@@ -208,7 +208,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-10T00:42:28.324Z",
+        "start_timestamp": "2021-01-10T00:50:41.458Z",
         "line": 14,
         "name": "Make posts to server and check response code and title",
         "description": "",
@@ -218,7 +218,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2991000,
+              "duration": 3001900,
               "status": "passed"
             },
             "line": 6,
@@ -240,7 +240,7 @@
           },
           {
             "result": {
-              "duration": 247115800,
+              "duration": 238806700,
               "status": "passed"
             },
             "line": 7,
@@ -279,7 +279,7 @@
           },
           {
             "result": {
-              "duration": 11863600,
+              "duration": 13037900,
               "status": "passed"
             },
             "line": 9,
@@ -310,7 +310,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-10T00:42:28.586Z",
+        "start_timestamp": "2021-01-10T00:50:41.715Z",
         "line": 18,
         "name": "Call users end point and check response code",
         "description": "",
@@ -320,6 +320,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1032500,
               "status": "passed"
             },
             "line": 19,
@@ -331,7 +332,7 @@
           },
           {
             "result": {
-              "duration": 85351700,
+              "duration": 77867200,
               "status": "passed"
             },
             "line": 20,
@@ -353,7 +354,7 @@
           },
           {
             "result": {
-              "duration": 30008900,
+              "duration": 45292300,
               "status": "passed"
             },
             "line": 21,
@@ -391,7 +392,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-10T00:42:28.704Z",
+        "start_timestamp": "2021-01-10T00:50:41.851Z",
         "line": 26,
         "name": "Call users end point and check first user",
         "description": "",
@@ -401,7 +402,6 @@
         "steps": [
           {
             "result": {
-              "duration": 999800,
               "status": "passed"
             },
             "line": 27,
@@ -413,7 +413,7 @@
           },
           {
             "result": {
-              "duration": 50999900,
+              "duration": 68686700,
               "status": "passed"
             },
             "line": 28,
@@ -452,7 +452,7 @@
           },
           {
             "result": {
-              "duration": 13997800,
+              "duration": 13000100,
               "status": "passed"
             },
             "line": 30,
@@ -474,7 +474,7 @@
           },
           {
             "result": {
-              "duration": 11003300,
+              "duration": 5721000,
               "status": "passed"
             },
             "line": 31,
@@ -496,7 +496,7 @@
           },
           {
             "result": {
-              "duration": 9998000,
+              "duration": 21587400,
               "status": "passed"
             },
             "line": 32,
@@ -527,7 +527,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-10T00:42:28.795Z",
+        "start_timestamp": "2021-01-10T00:50:41.964Z",
         "line": 36,
         "name": "Search for users with username Delphine",
         "description": "",
@@ -537,7 +537,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7003500,
+              "duration": 4995900,
               "status": "passed"
             },
             "line": 37,
@@ -555,7 +555,7 @@
           },
           {
             "result": {
-              "duration": 53001100,
+              "duration": 48006200,
               "status": "passed"
             },
             "line": 38,
@@ -594,7 +594,7 @@
           },
           {
             "result": {
-              "duration": 10998800,
+              "duration": 13998800,
               "status": "passed"
             },
             "line": 40,
@@ -616,7 +616,7 @@
           },
           {
             "result": {
-              "duration": 13004700,
+              "duration": 6750800,
               "status": "passed"
             },
             "line": 41,
@@ -638,7 +638,7 @@
           },
           {
             "result": {
-              "duration": 16994000,
+              "duration": 11187100,
               "status": "passed"
             },
             "line": 42,
@@ -660,7 +660,7 @@
           },
           {
             "result": {
-              "duration": 13999500,
+              "duration": 18717500,
               "status": "passed"
             },
             "line": 43,
@@ -672,7 +672,7 @@
           },
           {
             "result": {
-              "duration": 46000300,
+              "duration": 62155100,
               "status": "passed"
             },
             "line": 44,
@@ -694,6 +694,7 @@
           },
           {
             "result": {
+              "duration": 999800,
               "status": "passed"
             },
             "line": 45,
@@ -711,7 +712,7 @@
           },
           {
             "result": {
-              "duration": 2000700,
+              "duration": 1998400,
               "status": "passed"
             },
             "line": 46,
@@ -723,7 +724,7 @@
           },
           {
             "result": {
-              "duration": 57998400,
+              "duration": 62219200,
               "status": "passed"
             },
             "line": 47,
@@ -762,7 +763,7 @@
           },
           {
             "result": {
-              "duration": 16998400,
+              "duration": 16001500,
               "status": "passed"
             },
             "line": 49,
